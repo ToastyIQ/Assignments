@@ -73,7 +73,7 @@ namespace DataTypes.Code
         {
             var actual = firstValue + secondValue;
 
-            if (returnNegative == true)
+            if (returnNegative)
             {
                 if (firstValue <= 0 || secondValue <= 0)
                 {
