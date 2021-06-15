@@ -72,7 +72,9 @@ namespace DataTypes.Code
         public static decimal ConditionalMath(int firstValue, int secondValue, bool returnNegative)
         {
             var actual = firstValue + secondValue;
-
+             /*
+			 * No tests exist to account for if one value is negative and one value is positive - unsure how to handle
+			 */
             if (returnNegative)
             {
                 if (firstValue <= 0 || secondValue <= 0)
